@@ -1,0 +1,294 @@
+//HEADER
+.menu{
+
+
+    width:100%;
+    display: flex;  // isso deixa uma div ao lado da outra
+    justify-content: space-between; //isso deixa os elementos dividos em espaços iguais
+    position: fixed;
+    padding: 20px 15px;
+    
+}
+
+
+
+@media screen and (max-width: 960px){
+
+    .menu-left{
+        display:none;
+    }
+    .menu-right{
+        display:none;
+    }
+}
+
+//CONTAINER HERO
+
+.relative{
+    position:relative;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+ 
+    padding: 24px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.hero{
+    height: 100vh;
+    
+}
+
+
+@media screen and (max-width: 960px){
+    .hero{height: auto;
+        
+    }   
+    .container{
+        flex-direction: column;
+    }
+} 
+
+.container-item:nth-child(1){
+    flex-grow: 0;
+    margin: 40px 0px;
+    
+
+}
+
+.container-item:nth-child(2){
+    
+    flex-grow:1;
+    display:flex;
+    
+    align-items: center;
+    margin-bottom: 110px ;
+
+    img{
+        margin-top: 128px;
+        width: 320px ;
+        height: 430px;
+        margin-left: 250px;
+        border-radius: 5px;
+    }
+    
+}
+
+.flex-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-hero{
+    position: absolute;
+    top:0;
+    left:0;
+   
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
+    z-index: -1;
+  
+
+}
+
+
+.linha1{
+    height:2px;
+    background: linear-gradient(to bottom, $green-light , $black-dark 90%);
+}
+
+
+@media screen and(max-width: 1400px){
+    
+    
+
+
+
+
+    .img-hero{
+
+        width: 300px;
+
+    }
+
+    .container-item:nth-child(1){
+        flex-grow: 0;
+        margin: 40px 0px;
+        
+    
+    }
+    
+    .container-item:nth-child(2){
+        
+        flex-grow:1;
+        display:flex;
+        
+        align-items: center;
+        margin-top: 120px;
+
+        img{
+
+            margin-top: 128px;
+            width: 320px ;
+            height: 430px;
+            margin-left: 250px;
+            border-radius: 5px;
+        }
+    }         
+
+    
+}
+
+@media screen and(max-width: 1200px){
+    .svg-hero{
+        transform: scale(1.5) rotate(25deg);
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and(max-width: 960px){
+    
+    .bg-hero{
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+    }
+    .svg-hero{
+
+        transform: scale(2) rotate(25deg);
+    }
+
+
+}
+
+
+//SELECTED WORKS
+
+.bb-gray{
+    border-bottom: 1px solid $black-light;
+}
+.list-item{
+        max-width: 1200px;
+    padding:  16px 24px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+   
+    
+
+    a{
+        &:hover{
+            &+ .img-project{
+                transform: translate(0%, -0% ) translate3d(0,0,0)
+            }
+        }
+
+    }
+            
+}
+
+.img-project{
+    transition: .5s ease;
+    max-width: 300px;
+    border-radius: 4px;
+    z-index: -1;
+    opacity: 1;
+   
+    transform: translate(-50%, -10% ) translate3d(-2000px,0,0) skewX(30deg) 
+    
+
+
+}
+
+.get{
+    max-width: 1200px;
+    padding: 16px 24px;
+    margin: 0 auto;
+}
+
+
+
+.elipse{
+    display: block;
+    margin-top: 64px;
+    
+    padding: 16px 24px;
+    font-size: 24px;
+    position:relative;
+    width: 120px;
+    
+    
+
+
+    &::after{
+        content: '';
+        display:block;
+        position: absolute;
+        top: 0;
+        left:0;
+        border-radius: 120px;
+        width: 120px;
+        height: 120px;
+        background-color: $black-dark;
+        box-shadow: $green-light 2px 2px ;
+        z-index: -1;
+        transform: translate(-8%, -22%);
+
+
+    }
+    &:hover{
+        &::after{
+
+            transform: translate(-2%, -18%);
+            background-color: $green-light;
+            transition: .6s ease-in-out;
+
+        }
+
+    }
+}
+
+
+
+//ANIMATIONS
+
+
+#Elipse{
+    transform-origin: center center;  // transforma o eixo de giro no próprio elemento (<path>)
+    transform-box: fill-box;
+    animation: rotate 35s ease infinite ;
+}
+
+//LINHA DO TEMPO DAS ANIMAÇÕES
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+
+
+@keyframes rotateTri1{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}

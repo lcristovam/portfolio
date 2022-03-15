@@ -1,0 +1,31 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box; /* isso aqui 
+     serve para reolver a situação em que eu peço para 
+     uma div ter 200 px por exemplo, mas devido a um conteúdo 
+     dentro dela com padding, seu tamanho real não será de 200px 
+    */
+}
+
+@import 'sass/colors';
+@import 'sass/tipography';
+
+
+body{
+
+    width: 100%;
+    background-color: $black-dark;
+}
+
+
+.border{
+
+    border: 1px solid red;
+
+}
+
+@import 'sass/layout';
+@import 'sass/spacing';
+
