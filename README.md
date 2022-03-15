@@ -4,5 +4,6 @@ Tecnologias utilizadas
 
 → CSS3;
 → SCSS;
-→ Javascript com biblioteca GSAP para animações;
+→ Javascript 
+→ Biblioteca GSAP 
 → HTML5;
