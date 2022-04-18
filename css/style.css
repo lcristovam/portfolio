@@ -291,6 +291,41 @@ body {
   }
 }
 
+@media screen and (max-width: 550px) {
+  p {
+    font-size: 24px;
+  }
+  .img-project {
+    width: 280px;
+  }
+  .container-item:nth-child(2) {
+    margin: 40px 0px;
+  }
+  .container-item:nth-child(2) img {
+    margin: 0;
+  }
+  .img-project {
+    -webkit-transform: translate(0%, 0%) translate3d(0, 0, 0) !important;
+            transform: translate(0%, 0%) translate3d(0, 0, 0) !important;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  .bio {
+    display: block !important;
+    padding: 0px 20px;
+  }
+  .bio-text {
+    padding-top: 20px;
+  }
+  span {
+    color: white;
+    font-size: 48px;
+    font-family: 'Barlow Condensed' , sans-serif;
+    padding-top: 0px !important;
+  }
+}
+
 .bb-gray {
   border-bottom: 1px solid #15171A;
 }
