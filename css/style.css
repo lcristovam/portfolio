@@ -296,7 +296,7 @@ body {
     font-size: 24px;
   }
   .img-project {
-    width: 280px;
+    max-width: 250px !important;
   }
   .container-item:nth-child(2) {
     margin: 40px 0px;
@@ -309,7 +309,7 @@ body {
             transform: translate(0%, 0%) translate3d(0, 0, 0) !important;
   }
   h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .bio {
     display: block !important;
@@ -317,12 +317,16 @@ body {
   }
   .bio-text {
     padding-top: 20px;
+    text-align: justify;
   }
   span {
     color: white;
     font-size: 48px;
     font-family: 'Barlow Condensed' , sans-serif;
     padding-top: 0px !important;
+  }
+  .list-item {
+    padding: 10px 24px !important;
   }
 }
 
