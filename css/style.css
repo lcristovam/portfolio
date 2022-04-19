@@ -292,6 +292,20 @@ body {
 }
 
 @media screen and (max-width: 550px) {
+  .container-item:nth-child(1) {
+    margin: 0;
+  }
+  .menu {
+    display: none;
+  }
+  .bg-hero {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    padding-right: 50px;
+  }
+  .container-item-1 {
+    height: 100vh;
+  }
   p {
     font-size: 20px;
   }
@@ -327,6 +341,9 @@ body {
   }
   .list-item {
     padding: 10px 24px !important;
+  }
+  .flex-end {
+    margin-top: 200px;
   }
 }
 
