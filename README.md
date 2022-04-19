@@ -10,3 +10,5 @@ Tecnologias utilizadas
 → Javascript 
 → Biblioteca GSAP 
 → HTML5;
+
+Design SVG criado com Figma
