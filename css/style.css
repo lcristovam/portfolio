@@ -294,6 +294,7 @@ body {
 @media screen and (max-width: 550px) {
   .container-item:nth-child(1) {
     margin: 0;
+    margin-top: 100px;
   }
   .menu {
     display: none;
