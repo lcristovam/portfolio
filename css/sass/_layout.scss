@@ -174,9 +174,9 @@
 
 
 @media screen and(max-width: 550px){
-    .container-item:nth-child(1){
-        margin:0 ;
+    .title-hero{
         margin-top: 100px;
+        
     }
     .menu{
         display: none;
@@ -186,7 +186,7 @@
         padding-right: 50px;
     }
     .container-item-1{
-        height: 100vh;
+        height: 680px
     }
     p{
         font-size: 20px;
@@ -228,7 +228,7 @@
     }
 
     .flex-end{
-        margin-top: 200px;
+        margin-top: 160px;
     }
    
 }
