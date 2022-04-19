@@ -298,10 +298,14 @@ body {
   .menu {
     display: none;
   }
-  .bg-hero {
+  .relative {
+    width: 100vw;
+  }
+  .svg {
+    padding-right: 50px;
     -webkit-transform: scale(2);
             transform: scale(2);
-    padding-right: 50px;
+    width: 100vw;
   }
   .container-item-1 {
     height: 680px;
