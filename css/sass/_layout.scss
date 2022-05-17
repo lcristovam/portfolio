@@ -69,11 +69,11 @@
 
 .container-item:nth-child(2){
     
-    flex-grow:1;
+    
     display:flex;
     
     align-items: center;
-    margin-bottom: 11rem ;
+    margin-bottom: 8rem ;
 
     img{
         margin-top: 12rem;
@@ -264,6 +264,28 @@
     }
 
 }
+
+@media screen and(max-width: 1400px){
+    .container-item:nth-child(2){
+        
+     
+        margin-bottom: 10rem ;
+        margin-top: 0rem;
+        img{
+            margin-top: 0rem;
+            width: 25rem ;
+            height: 34rem;
+            margin-left: 12rem;
+            border-radius: .5rem;
+        }
+        
+    }
+
+    svg{
+        height: 100vh;
+        width: 100%;
+    }
+}
 @media screen and(max-width: 1200px){
     
     .svg-hero{
@@ -281,6 +303,8 @@
       
        margin-right: 2rem; 
     }
+   
+    
 }
 
 
