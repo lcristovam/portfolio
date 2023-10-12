@@ -1,9 +1,8 @@
-#Portfólio em desenvolvimento.
+Olá! Este é meu portfolio de desenvolvimento front e back-end.  Fico feliz por sua apreciação a meu reposítório. 
 
 Visualizar meu portfólio: https://portfolio.cristovamtecnologia.com.br
 
 Tecnologias utilizadas
-
 → CSS3;
 → SCSS;
 → Javascript 
