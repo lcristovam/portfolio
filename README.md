@@ -8,6 +8,8 @@ Tecnologias utilizadas
 → Javascript 
 → Biblioteca GSAP 
 → HTML5;
+→ Biblioteca de ícones FlatIcon.
+→ Design Figma
 
 Design SVG criado com Figma
 
