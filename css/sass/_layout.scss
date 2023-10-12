@@ -88,7 +88,7 @@
 #bio{
     
     
-    height: 110vh;
+    height: 80vh;
     
     background-image: url(../../img/mountain-dark.png) ;
     background-size: 100vw 110vh;
@@ -244,8 +244,13 @@
     }
 }
 
+.menu-5{
+    :hover{
+     color: $green-light
+    }
+}
 
-@media screen and(min-width: 1600px){
+@media screen and (min-width: 1600px){
     .container{
         max-width: 140rem;
     }
@@ -265,7 +270,7 @@
 
 }
 
-@media screen and(max-width: 1400px){
+@media screen and (max-width: 1400px){
     .container-item:nth-child(2){
         
      
@@ -286,7 +291,7 @@
         width: 100%;
     }
 }
-@media screen and(max-width: 1200px){
+@media screen and (max-width: 1200px){
     
     .svg-hero{
         transform: scale(1.5) rotate(25deg);
@@ -353,7 +358,7 @@
 }
 
 
-@media screen and(max-width: 550px){
+@media screen and (max-width: 550px){
     
     .title-hero{
         margin-top: 10rem;
