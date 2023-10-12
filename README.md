@@ -1,6 +1,6 @@
 #Portifólio em desenvolvimento.
 
-Visualização disponível em:   portifolio.cristovamtecnologia.com.br
+Visualização disponível em:   portfolio.cristovamtecnologia.com.br
 
 
 Tecnologias utilizadas
