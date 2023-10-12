@@ -1,8 +1,8 @@
 <h2> Olá! Este é meu portfolio de desenvolvimento front e back-end.  Fico feliz por sua apreciação a meu reposítório. </h2>
 
-Visualizar meu portfólio: https://portfolio.cristovamtecnologia.com.br
+<b>Visualizar meu portfólio:</b> https://portfolio.cristovamtecnologia.com.br
 
-Tecnologias utilizadas
+<b>Tecnologias utilizadas</b>
 → CSS3;
 → SCSS;
 → Javascript 
