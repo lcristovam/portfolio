@@ -404,6 +404,17 @@ body {
   }
 }
 @media screen and (max-width: 550px) {
+  h2 {
+    font-size: 48px;
+  }
+  .hero {
+    height: 1200px;
+    padding-bottom: 0px;
+  }
+  #bio .bio-content {
+    margin: 0px !important;
+    margin-top: 30px !important;
+  }
   .title-hero {
     margin-top: 10rem;
   }
@@ -412,6 +423,9 @@ body {
   }
   .relative {
     width: 100vw;
+  }
+  .container-item:nth-child(2) {
+    margin-bottom: 0px !important;
   }
   .svg {
     padding-right: 5rem;
@@ -425,9 +439,6 @@ body {
   p {
     font-size: 2rem;
   }
-  .img-project {
-    max-width: 22rem !important;
-  }
   .container-item:nth-child(2) {
     margin: 4rem 0px;
   }
@@ -435,6 +446,8 @@ body {
     margin: 0;
   }
   .img-project {
+    max-width: none;
+    width: 90vw;
     transform: translate(0%, 0%) translate3d(0, 0, 0) !important;
   }
   h3 {
@@ -458,17 +471,21 @@ body {
     padding-top: 0rem;
   }
   #projects {
-    padding: 0rem 2rem;
+    padding: 0rem 0.5rem;
   }
   .list-item {
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
   }
   .flex-end {
     margin-top: 16rem;
   }
   footer h2 {
+    font-size: 32px;
+  }
+  .link-get-in-touch {
     font-size: 32px;
   }
 }
