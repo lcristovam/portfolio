@@ -139,8 +139,6 @@
     align-items: center;
     
    
-    
-
     a{
         &:hover{
             &+ .img-project{
@@ -151,6 +149,7 @@
     }
             
 }
+
 
 .img-project{
     transition: .5s ease;
