@@ -192,17 +192,18 @@ body {
 }
 
 #bio {
-  height: 80vh;
+  height: 90vh;
   background-image: url(../../img/mountain-dark.png);
   background-size: 100vw 110vh;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
 #bio .bio-content {
   max-width: 1200px;
-  margin: 25rem auto;
+  margin: 15rem auto;
 }
 
 .flex-end {
@@ -284,6 +285,23 @@ body {
   transform-origin: center center;
   transform-box: fill-box;
   animation: rotate 35s ease infinite;
+}
+
+#get {
+  display: flex;
+  justify-content: center;
+  height: 280px;
+}
+
+.div-get-in-touch {
+  text-align: center;
+}
+
+.link-get-in-touch {
+  font-size: 48px;
+}
+.link-get-in-touch:hover {
+  color: white !important;
 }
 
 @keyframes rotate {
